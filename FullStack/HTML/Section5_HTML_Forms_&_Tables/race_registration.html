@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+    <link rel="stylesheet" href="/home/siddhant-udgirkar/Practice_Everything/FullStack/HTML/Section6_CSS_The_Very_Basics/css.html">
+</head>
+
+<body>
+    <h1>Race Registration</h1>
+    <form action="example.com">
+        <div>
+            <label for="first">First Name</label>
+            <input type="text" id="first" name="first_name" required>
+
+            <label for="last">Last Name</label>
+            <input type="text" id="last" name="last_name" required>
+        </div>
+        <p>
+            Select a Race
+        </p>
+        <div>
+            <input type="radio" name="race" id="funrun" value="Fun Run 5k" required>
+            <label for="funrun">Fun Run 5k</label>
+            <br>
+            <input type="radio" name="race" id="hlfm" value="Half Marathon" required>
+            <label for="hlfm">Half Marathon</label>
+            <br>
+            <input type="radio" name="race" id="fullm" value="Full Marathon" required>
+            <label for="fullm">Full Marathon</label>
+        </div>
+        <p>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="pass">Password</label>
+            <input type="password" name="pass" id="pass" required>
+        </div>
+        </p>
+        <p>
+        <div>
+            <label for="age">Select Age Group </label>
+            <select name="age" id="age">
+                <option value="1-18">Under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </div>
+        </p>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

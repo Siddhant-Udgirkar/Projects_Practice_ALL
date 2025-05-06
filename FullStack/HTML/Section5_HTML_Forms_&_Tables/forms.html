@@ -72,7 +72,87 @@
         <input type="text" id="search" name="search_query">
         <button>Search!!</button>
     </form>
+    <h1>Search Table: </h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Search in</th>
+                <th>Enter the content</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <form action="https://www.youtube.com/results">
+                    <td>
+                        <label for="youtube">Search Youtube: </label>
+                        <button type="submit">Search!!</button>
+                    </td>
+                    <td>
+                        <input type="text" id="youtube" name="search_query">
+                    </td>
+                </form>
+            </tr>
+            <tr>
+                <form action="https://www.google.com/search">
+                    <td>
+                        <label for="youtube">Search Google: </label>
+                        <button type="submit">Search!!</button>
+                    </td>
+                    <td>
+                        <input type="text" id="youtube" name="q">
+                    </td>
+                </form>
+            </tr>
+            <tr>
+                <form action="example.com">
+                    <td>
+                        <label for="select">Agree</label>
+                        <input type="checkbox" id="select">
+                    </td>
+                </form>
+            </tr>
+            <tr>
+                <form action="example.com">
+                    <td>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="answer">
+                    </td>
+                    <td>
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="answer">
+                    </td>
+                </form>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Select box or element: </h2>
+    <form action="serach.com">
+        <label for="cars">Select any car: </label>
+    <select name="brand" id="cars">
+        <option value="">Please select any one among them: </option>
+        <option value="buggati">Buggati</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="bmw">BMW</option>
+    </select><br>
+    <button type="submit">Search</button>
+</form>
+<p>
+    <label for="text">Please enter your thoughts: </label>
+    <textarea name="textbox" id="text" rows="4" cols="10" placeholder="Enter here"></textarea>
+</p>
 
+<h3>Validations Demo!!</h3>
+<form action="example.com">
+    <label for="first">Enter your first name: </label>
+    <input type="text" name="first_name" id="first" required >
+    <!-- <button>Submit</button> -->
+    <button type="submit">Submit</button>
+</form>
+<br>
+<br>
+<br>
+
+<h5>Go to the race registration: <a href="race_registration.html">Click Here!!</a></h5>
 
 </body>
 
