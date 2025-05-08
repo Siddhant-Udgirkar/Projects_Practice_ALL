@@ -7,6 +7,11 @@ h1{
     background-color: pink;
     width: 100px;
     padding-left: 100px;
+    margin: 0;
+}
+
+body{
+    margin: 0;
 }
 
 #one{
@@ -27,4 +32,22 @@ h1{
     border: 5px solid black;
     border-radius: 50%;
     box-sizing: border-box;
+}
+button{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 40px;
+}
+
+#h31{
+    border: 15px 15px;
+    border-color: #984545;
+    border-radius: 50%;
+    border-left-style: double;
+}
+
+#div2{
+    height: fit-content;
+    width: fit-content;
 }
